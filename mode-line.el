@@ -282,4 +282,4 @@ Show up to `max-length' characters of a directory name `dir'."
 
 (ml-mode 1) ;; globally turn on minor-mode
 
-(provide 'lawlist-ml)
+(provide 'mode-line)
