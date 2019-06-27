@@ -134,7 +134,7 @@ Show up to `max-length' characters of a directory name `dir'."
               "C")
             ":"
             (if (and (> cc fill-column) (eq ml-selected-window--post-command-hook (selected-window)))
-              (propertize (number-to-string cc) 'face 'ml-fill-column-face)
+              (propertize (number-to-string cc) 'face 'italic)
               (number-to-string cc)))))
      " "
      (:eval
