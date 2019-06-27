@@ -207,9 +207,8 @@ Show up to `max-length' characters of a directory name `dir'."
                 (sort
                   active-minor-modes
                   (lambda (x y)
-                    (let* (
-                        (xname (cadr x))
-                        (yname (cadr y)) )
+                    (let ((xname (cadr x))
+                          (yname (cadr y)))
                       (when (symbolp xname) (setq xname (symbol-value xname)))
                       (when (symbolp yname) (setq yname (symbol-value yname)))
                       (when (and (stringp xname) (not (string= "" xname))
