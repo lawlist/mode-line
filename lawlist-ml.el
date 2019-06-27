@@ -32,10 +32,6 @@
   "The recorded value of the date-time.")
 (make-variable-buffer-local 'ml-record-date-time)
 
-(defvar ml-record-tabbar-current-tabset nil
-  "The recorded value of the tabbar-current-tabset.")
-(make-variable-buffer-local 'ml-record-tabbar-current-tabset)
-
 (defvar ml-record-shortened-directory nil
   "The recorded value of the shortened-directory.")
 (make-variable-buffer-local 'ml-record-shortened-directory)
