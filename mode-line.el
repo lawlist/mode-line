@@ -275,7 +275,7 @@ Show up to `max-length' characters of a directory name `dir'."
       (kill-local-variable 'mode-line-format)
       (remove-hook 'pre-command-hook 'ml-pre-command-hook-fn)
       (remove-hook 'post-command-hook 'ml-post-command-hook-fn)
-      (remove-hook 'text-mode-hook 'ml-update-fn)
+      (remove-hook 'text-mode-hook 'ml-set-format)
       (when (called-interactively-p 'any)
         (message "Globally turned OFF `ml-mode'.") ))))
 
